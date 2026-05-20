@@ -5,7 +5,7 @@ programa {
     leia(custoL)
     escreva("Digite a porcentagem desejada: ")
     leia(porcentagem)
-    resultado = calcular_preco_lote(25.50,10.0)
+    resultado = calcular_preco_lote(custoL,porcentagem)
     escreva(resultado)
   }
   funcao real calcular_preco_lote(real lote, real porcent) {
